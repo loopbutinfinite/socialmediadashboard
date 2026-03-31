@@ -10,14 +10,23 @@ import TwitterLikesCard from "./components/TwitterLikesCard/page";
 import TwitterRetweetsCard from "./components/TwitterRetweetsCard/page";
 import YoutubeLikesCard from "./components/YoutubeLikesCard/page";
 import YoutubeTotalViewsCard from "./components/YoutubeTotalViewsCard/page";
+import ThemeToggle from "./components/ThemeToggle";
 
 export default function Home() {
   return (
     <div>
-      <main className="min-h-screen bg-slate-900 text-white p-8 lg:px-40 lg:py-30">
-        <div className="mb-10 pb-5 lg:pb-0 border-b-2 border-gray-600 lg:border-none">
-          <h1 className="text-3xl font-bold">Social Media Dashboard</h1>
-          <p className="text-gray-400">Total Followers: 23,004</p>
+      <main style={{
+        backgroundColor: 'var(--bg-color)',
+        color: 'var(--text-color)'
+      }} className="min-h-screen bg-slate-900 text-white p-8 lg:px-40 lg:py-20">
+        <div className="mb-10 grid lg:grid-cols-2 w-full">
+          <div className="">
+            <h1 className="text-4xl font-extrabold">Social Media Dashboard</h1>
+            <p className="text-gray-500 text-xl font-bold pb-5 lg:pb-0 border-b-2 border-gray-600 lg:border-none">Total Followers: 23,004</p>
+          </div>
+          <div className="place-items-end pt-5 md:pt-0">
+            <ThemeToggle></ThemeToggle>
+          </div>
         </div>
         <div className="grid md:grid-cols-4 gap-6 mb-12">
           <FacebookCard></FacebookCard>

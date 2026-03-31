@@ -130,3 +130,29 @@
     @apply font-sans;
   }
 }
+
+html.dark {
+  --bg-color: #0f172a;
+  --text-color: #ffffff;
+  --card-bg: #1e293b;
+  --card-bg-hover: #334155;
+}
+
+html.light {
+  --bg-color: #ffffff;
+  --text-color: #0f172a;
+  --card-bg: #f1f5f9;
+  --card-bg-hover: #e2e8f0;
+}
+
+.card {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  transition: background-color 0.2s ease, transform 0.15s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: var(--card-bg-hover);
+  transform: translateY(-2px);
+}

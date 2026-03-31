@@ -29,7 +29,7 @@ export interface TwitterData {
     followers: number, 
     followerChange: number,
     retweets: number,
-    retweetChange: number, 
+    retweetsChange: number, 
     likes: number, 
     likesChange: number
 }
