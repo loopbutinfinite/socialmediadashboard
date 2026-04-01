@@ -21,10 +21,10 @@ export default function Home() {
       }} className="min-h-screen bg-slate-900 text-white p-8 lg:px-40 lg:py-20">
         <div className="mb-10 grid lg:grid-cols-2 w-full">
           <div className="">
-            <h1 className="text-4xl font-extrabold">Social Media Dashboard</h1>
-            <p className="text-gray-500 text-xl font-bold pb-5 lg:pb-0 border-b-2 border-gray-600 lg:border-none">Total Followers: 23,004</p>
+            <h1 className="text-3xl md:text-4xl font-extrabold">Social Media Dashboard</h1>
+            <p className="text-gray-500 text-xl font-extrabold pb-5 lg:pb-0 border-b-2 border-gray-600 lg:border-none">Total Followers: 23,004</p>
           </div>
-          <div className="place-items-end pt-5 md:pt-0">
+          <div className="place-items-end pt-5 lg:pt-0">
             <ThemeToggle></ThemeToggle>
           </div>
         </div>
