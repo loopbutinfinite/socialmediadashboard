@@ -8,4 +8,4 @@
 
 ### https://yellow-sea-021d7431e.2.azurestaticapps.net/
 
-## Peer Review () -
+## Peer Review (Brandon Estrada) - Great job Brandon everything looks exactly like the figma and works as it should
